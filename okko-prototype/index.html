@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OKKO — Étude des outils de test</title>
+  <link rel="icon" href="assets/okko.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="comparison.css">
+  <script src="content.js" defer></script>
+  <script src="research.js" defer></script>
+  <script src="comparison-data.js" defer></script>
+  <script src="comparison.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#board">Aller à la planche</a>
+  <header class="toolbar">
+    <a class="app-brand" href="#xray/navigation" aria-label="OKKO — première planche"><img src="assets/okko.png" alt="OKKO"><span>Étude comparative</span></a>
+    <nav class="tools" aria-label="Choisir un outil"></nav>
+    <div class="toolbar-actions"><button id="print" class="quiet">Imprimer</button><button id="present" class="primary">Présenter <span aria-hidden="true">↗</span></button></div>
+  </header>
+  <div class="subbar"><nav class="tabs" aria-label="Type de planche"></nav><span class="context-label" id="context"></span></div>
+  <main id="board" class="board" tabindex="-1"></main>
+  <footer class="pager">
+    <button id="sources" class="quiet">Sources et périmètre</button>
+    <div class="pagination"><button id="previous" class="arrow-button" aria-label="Planche précédente">←</button><span id="page-count" aria-live="polite"></span><button id="next" class="arrow-button" aria-label="Planche suivante">→</button></div>
+    <div class="pager-right"><span class="keyboard-help">← → pour changer de planche</span><button id="exit-present" hidden>Quitter la présentation</button></div>
+  </footer>
+  <dialog id="sources-dialog"><div class="dialog-head"><h2>Sources et périmètre</h2><button id="close-sources" aria-label="Fermer les sources">×</button></div><div id="sources-content"></div></dialog>
+  <noscript>Active JavaScript pour naviguer entre les planches</noscript>
+</body>
+</html>
