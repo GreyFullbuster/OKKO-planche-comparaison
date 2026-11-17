@@ -1,0 +1,31 @@
+OKKO — Étude comparative des outils de test
+
+Ouvrir index.html dans un navigateur
+Aucune installation ni connexion Internet n’est nécessaire pour consulter les planches
+
+14 planches : Navigation et Parcours pour Xray Cloud, CucumberStudio, KushoAI, Parasoft SOAtest, Keploy, Katalon Studio et Microsoft Clarity
+
+Choisir l’outil en haut, puis Navigation ou Parcours
+Utiliser les boutons en bas ou les flèches gauche et droite du clavier pour parcourir les 14 planches
+Présenter masque les commandes du haut et ouvre le plein écran si le navigateur le permet
+Échap ou Quitter la présentation permet de revenir au mode normal
+Imprimer permet d’imprimer la planche courante ou de l’enregistrer en PDF
+Sources et périmètre donne accès aux références officielles de chaque outil
+
+Les textes initiaux se trouvent dans content.js
+Les recherches Parasoft SOAtest, Keploy et Katalon Studio se trouvent dans research.js
+La mise en page et les couleurs se trouvent dans styles.css
+Le changement de page et les flèches des diagrammes se trouvent dans app.js
+Les logos et les polices se trouvent dans assets
+
+Les planches ont été reconstruites à partir des captures et de la documentation disponible
+L’accès direct au fichier Figma n’était pas disponible au moment de la reconstruction
+Microsoft Clarity est présenté comme un outil d’analyse des usages, distinct de la gestion des tests
+Les remarques de comparaison sont une analyse éditoriale et non des résultats de tests utilisateurs
+
+Périmètres des nouvelles recherches
+SOAtest : workbench de bureau, clients API, outils associés et diagnostic
+Keploy : génération de suites API distinguée de la capture/rejeu d’intégration
+La planche Parcours Keploy étudie la capture/rejeu locale, avec la console Enterprise en option
+Katalon : Studio desktop, distinct de la plateforme Web Katalon True / TestOps
+Sources consultées le 13 novembre 2026, accessibles dans Sources et périmètre
